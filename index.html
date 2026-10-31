@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Erel Shinzhin | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Эффект VHS-помех на весь экран -->
+    <div class="vhs-overlay"></div>
+
+    <!-- Главный экран (Hero Section) -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1 class="glitch" data-text="EREL SHINZHIN">EREL SHINZHIN</h1>
+            <p class="subtitle">Fullstack Developer & Game Audio Designer</p>
+            <div class="status-tag">
+                <span class="pulse-dot"></span> System Status: Online
+            </div>
+            <div class="cta-container">
+                <a href="#projects" class="btn btn-primary">📂 Проекты</a>
+                <a href="#terminal" class="btn btn-secondary">📟 Запустить CLI</a>
+            </div>
+        </div>
+    </header>
+
+        <!-- Секция проектов -->
+    <section id="projects" class="projects-section">
+        <h2 class="section-title">LOGGED_PROJECTS</h2>
+        
+        <div class="legend">
+            <span class="legend-item solo"><span class="color-box"></span> Solo Works</span>
+            <span class="legend-item collab"><span class="color-box"></span> Collaborations</span>
+        </div>
+
+        <div class="projects-grid">
+            <!-- Карточка 1: Ghost Protocol -->
+            <div class="project-card collab featured">
+                <div class="card-glow"></div>
+                <div class="card-content">
+                    <div class="tag award">🏆 Best Sound</div>
+                    <h3>Ghost Protocol</h3>
+                    <p class="project-desc">Visual novel with strategy elements. Full sound architecture, audio stream separation, and custom UI system.</p>
+                    <div class="tech-stack">
+                        <span>Godot Engine</span><span>Audio Mixing</span><span>GitLab</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Карточка 2: Сказка.exe -->
+            <div class="project-card collab">
+                <div class="card-content">
+                    <h3>Сказка.exe</h3>
+                    <p class="project-desc">A neon-future twist on classic Russian folktales. Implemented UI programming, dynamic screen transitions, and interface bugs.</p>
+                    <div class="tech-stack">
+                        <span>Godot</span><span>UI Logic</span><span>Shaders</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Карточка 3: Beat 'em Up Pet Project -->
+            <div class="project-card solo">
+                <div class="card-content">
+                    <h3>Untitled Beat 'em Up</h3>
+                    <p class="project-desc">Personal 2D retro action game. 100% custom combat sound design, independent audio stream routing, and timing corrections.</p>
+                    <div class="tech-stack">
+                        <span>Aseprite</span><span>Krotos Studio</span><span>GDScript</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Карточка 4: Object::D0P3L -->
+            <div class="project-card solo">
+                <div class="card-content">
+                    <h3>Object::D0P3L</h3>
+                    <p class="project-desc">Sci-fi stealth puzzle game built from scratch during a limited-time Game Jam. Focused on tactical sound cues and enemy line-of-sight mechanics.</p>
+                    <div class="tech-stack">
+                        <span>Godot 4</span><span>Game Jam</span><span>Logic</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Карточка 5: Метай ножи! -->
+            <div class="project-card solo">
+                <div class="card-content">
+                    <h3>Метай ножи!</h3>
+                    <p class="project-desc">Casual hyper-arcade mobile game successfully integrated and published on web-distribution portals via Yandex SDK.</p>
+                    <div class="tech-stack">
+                        <span>Yandex SDK</span><span>Mobile Dev</span><span>Saves API</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Карточка 6: Shattered -->
+            <div class="project-card collab">
+                <div class="card-content">
+                    <h3>Shattered</h3>
+                    <p class="project-desc">Psychological horror game. Built immersive environmental audio, adaptive tension music switching, and trigger systems.</p>
+                    <div class="tech-stack">
+                        <span>Unreal Engine 5</span><span>Game Design</span><span>Audio Integration</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+        <!-- Секция терминала -->
+    <section id="terminal" class="terminal-section">
+        <div class="terminal-window">
+            <div class="terminal-header">
+                <div class="terminal-buttons">
+                    <span class="dot red"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot green"></span>
+                </div>
+                <div class="terminal-title">bash — erel@root-server:~</div>
+            </div>
+            <div class="terminal-body" id="terminal-body">
+                <div class="terminal-output">
+                    <p>Welcome to Erel OS v1.0.4 (GNU/Linux 6.1.0-sys)</p>
+                    <p>System load: 0.42 | Storage: SSD [C:/ D:/] OK | RAM: 16GB OK</p>
+                    <p>Type <span class="highlight">help</span> to view available operations.</p>
+                    <br>
+                </div>
+                <div class="terminal-input-line">
+                    <span class="prompt">erel@root-server:~$</span>
+                    <input type="text" id="cli-input" autofocus autocomplete="off" spellcheck="false">
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- Секция опыта и навыков -->
+        <!-- Секция визуальных навыков (Dashboard) -->
+    <section id="skills-dashboard" class="dashboard-section">
+        <h2 class="section-title">CORE_COMPETENCIES // DASHBOARD</h2>
+        
+        <div class="dashboard-grid">
+                        <!-- Карточка: Системный профиль (Личные данные и Образование) -->
+            <div class="dash-card profile-card">
+                <div class="dash-header">
+                    <span class="status-indicator green"></span>
+                    <h3>USER_PROFILE // SPECIFICATION</h3>
+                </div>
+                <div class="profile-specs">
+                    <div class="spec-line">
+                        <span class="label">ФИО:</span>
+                        <span class="value">Шинжин Эрель Эркинович</span>
+                    </div>
+                    <div class="spec-line">
+                        <span class="label">Возраст:</span>
+                        <span class="value">27 лет (09.08.1999)</span>
+                    </div>
+                    <div class="spec-line">
+                        <span class="label">Образование:</span>
+                        <span class="value">Высшее, Прикладная информатика в экономике</span>
+                    </div>
+                    <div class="spec-line">
+                        <span class="label">Локация:</span>
+                        <span class="value">Саратов</span>
+                    </div>
+                    <div class="spec-line">
+                        <span class="label">Контакты:</span>
+                        <span class="value highlight-contact">erel5693@gmail.com</span>
+                    </div>
+                </div>
+            </div>
+
+
+            
+            <div class="dash-card featured-dash">
+                <div class="dash-header">
+                    <span class="status-indicator yellow"></span>
+                    <h3>Technical Writing & Troubleshooting</h3>
+                </div>
+                <ul class="dash-list">
+                    <li><strong>Базы знаний:</strong> Успешный опыт разработки методических материалов, регламентов и мануалов для ИТ-команд.</li>
+                    <li><strong>Технический перевод:</strong> Умение переводить сложные технические решения разработки на язык понятных пошаговых инструкций для саппорта.</li>
+                    <li><strong>Анализ логов:</strong> Поиск первопричины сбоев систем по сырым файлам системного окружения.</li>
+                </ul>
+            </div>
+
+            <!-- Карточка HARD SKILLS -->
+            <div class="dash-card">
+                <div class="dash-header">
+                    <span class="status-indicator cyan"></span>
+                    <h3>Database & SysOps (Hard)</h3>
+                </div>
+                <div class="tech-tags-group">
+                    <h5>БАЗЫ ДАННЫХ:</h5>
+                    <p>SQL (PostgreSQL) — написание комплексных выборок, фильтрация данных, агрегация (JOIN, GROUP BY).</p>
+                    
+                    <h5>СЕРВЕРЫ:</h5>
+                    <p>Linux OS (Терминал, CLI, управление процессами, чтение логов, systemctl).</p>
+                    
+                    <h5>РАЗРАБОТКА & DEVOPS:</h5>
+                    <p>Python, JS (HTML5/CSS3), Git (GitLab, GitHub), Docker (Base).</p>
+                </div>
+            </div>
+
+            <!-- Карточка GAME DEVELOPMENT -->
+            <div class="dash-card">
+                <div class="dash-header">
+                    <span class="status-indicator purple"></span>
+                    <h3>Game Development & Architecture</h3>
+                </div>
+                <div class="tech-tags-group">
+                    <h5>ДВИЖКИ:</h5>
+                    <p>Godot Engine (C#, GDScript), Unreal Engine 5.</p>
+                    
+                    <h5>ПРОЕКТНЫЙ ОПЫТ:</h5>
+                    <p>Разработка игровой логики, интеграция SDK (Yandex SDK), оптимизация архитектуры и сессий.</p>
+                    
+                    <h5>ИНТЕГРАЦИЯ ЗВУКА:</h5>
+                    <p>Профессиональный звуковой дизайн (Krotos Studio), постобработка и настройка независимых аудиопотоков.</p>
+                </div>
+            </div>
+
+            <!-- Карточка SOFT SKILLS -->
+            <div class="dash-card">
+                <div class="dash-header">
+                    <span class="status-indicator green"></span>
+                    <h3>Teamwork & Adaptation (Soft)</h3>
+                </div>
+                <ul class="dash-list">
+                    <li><strong>Высокая адаптивность:</strong> Быстро вливаюсь в незнакомые процессы разработки и осваиваю новое ПО в сжатые сроки.</li>
+                    <li><strong>Языковые навыки:</strong> Уверенный английский язык (свободное чтение документации, опыт в Speaking-клубах).</li>
+                    <li><strong>Управление задачами:</strong> Опыт ведения спринтов и планирования в Bitrix24, WEEEK и Kaiten.</li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Подключение JS -->
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+</body>
+</html>
