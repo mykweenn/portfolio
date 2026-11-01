@@ -7,7 +7,7 @@ const files = {
     'skills.db': 'STATUS: EXTRACTING HARD_SKILLS...\n- Languages: Python, JS, Dart (Flutter), GDScript\n- Databases: SQL / PostgreSQL (Запросы, Оптимизация, Анализ)\n- DevOps: Git (GitLab/GitHub), Docker (Base), Linux CLI\n- Engines: Godot Engine, Unreal Engine 5',
     'infrastructure.log': 'LOG_START: Morevna Project Server\n[OK] Nginx proxy up and routing\n[OK] PostgreSQL database integration healthy\n[INFO] Checked local environment logs via Linux CLI\n[OK] Audio engine pipeline synchronized successfully.',
     'knowledge_base.md': '## KNOWLEDGE BASE // TECHNICAL WRITING\n- Опыт создания методичек, регламентов и мануалов для технических платформ.\n- Перевод сложных архитектурных решений разработки на язык пошаговых инструкций.\n- Структурирование гайдов по дебагу, настройке ПО и траблшутингу для специалистов и пользователей.',
-    'contacts.cfg': 'EMAIL="mykweenn@yandex.ru"\nLOCATION="Gorno-Altaysk / Saratov (Oct 2026)"\nGITHUB="https://github.com"\nSTATUS="Ready for interview"'
+    'contacts.cfg': 'EMAIL="mykweenn@yandex.ru"\nLOCATION="Gorno-Altaysk / Saratov (Oct 2026)"\nGITHUB="https://mykweenn.github.io"\nSTATUS="Ready for interview"'
 };
 
 
